@@ -42,7 +42,7 @@ area(L, W) ->
 
 # Document your code
 
-* Add a function type a doc tag
+* Add a function type and a doc tag
 ```erlang
 %% @doc Calculate the area of a rectangle.
 -spec area(number(), number()) -> number().

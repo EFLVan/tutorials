@@ -11,7 +11,7 @@ Welcome!
 
 0. Have Erlang installed.
 
-1. Clone or download the repository
+1. Clone or download the repository from https://github.com/EFLVan/tutorials
 
 ---
 
@@ -33,24 +33,9 @@ $ erl
 
 ```erlang
 1> helloworld.
-```
-
-```erlang
 2> 1+1.
-```
-
-```erlang
 3> A = 3, B = 0, C = 7, D = 7, E = 10.
-```
-
-```erlang
 4> F = [A, B, C, D, E].
-```
-
-```erlang
 5> A = B.
-```
-
-```erlang
 6> [X + 69 || X <- F].
 ```
