@@ -1,18 +1,25 @@
 # Modules and Functions
 
-* Create a file called `kool_player.erl`
-* Declare the module `kool_player`
+* Create a file called `hello.erl`
+* Declare the module `hello`
 ```erlang
--module(kool_player).
+-module(hello).
 ```
-* Export the function `player1/0`
+* Export the function `hello/0`
 ```erlang
--export([player1/0]).
+-export([hello/0]).
+```
+* Implement the function `hello/0`
+```erlang
+hello() -> hello_world.
 ```
 * Open the shell compile & load your module
 ```erlang
-1> c(kool_player).
-2> l(kool_player).
+1> c(hello).
+2> l(hello).
 ```
-* Call `kool_player:player1()` in the shell
+* Call `hello:hello()` in the shell
+```erlang
+3> hello:hello().
+```
 
