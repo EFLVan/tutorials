@@ -1,7 +1,5 @@
 # Erlang Factory Light Vancouver Tutorials
 
-A two-session introductiory course to Erlang based on
-[Études for Erlang](https://github.com/ypaq/etudes-for-erlang).
 
 ## Structure
 
