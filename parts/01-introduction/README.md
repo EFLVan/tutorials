@@ -35,8 +35,9 @@ $ erl
 1> helloworld.
 2> 1+1.
 3> A = 3, B = 0, C = 7, D = 7, E = 10.
-4> F = [A, B, C, D, E].
-5> A = B.
-6> [X + 69 || X <- F].
-7> {i_am_a_tuple, 3.14159, "snap"}.
+4> A = B.
+5> Z = [B, C, D, E],
+6> F = [A | Z].
+7> [X + 69 || X <- F].
+8> {i_am_a_tuple, 3.14159, "snap", [1, two, "three"]}.
 ```

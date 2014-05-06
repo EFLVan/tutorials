@@ -5,21 +5,20 @@
 ```erlang
 -module(hello).
 ```
-* Export the function `hello/0`
+* Export the function `hello/1`
 ```erlang
--export([hello/0]).
+-export([hello/1]).
 ```
-* Implement the function `hello/0`
+* Implement the function `hello/1`
 ```erlang
-hello() -> hello_world.
+hello(Name) -> io:format("hello ~p~n", [Name]).
 ```
 * Open the shell compile & load your module
 ```erlang
-1> c(hello).
-2> l(hello).
+1> c(hello), l(hello).
 ```
-* Call `hello:hello()` in the shell
+* Call call your function in the shell
 ```erlang
-3> hello:hello().
+3> hello:hello(world).
 ```
 
